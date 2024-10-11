@@ -40,11 +40,17 @@ Certifique-se de ter as seguintes bibliotecas instaladas:
 2. **Pandas** (para manipulação de dados):
    ```bash
    pip install pandas
-3. Tenha o arquivo produtos.csv com a seguinte estrutura:
 
-codigo	marca	   tipo	   categoria	preco_unitario	custo	  obs
-123	    Marca X	 Tipo 1	 Categoria	  99.99	        60.00	   Nenhuma
-456	    Marca Y	 Tipo 2	 Categoria	  199.99	      120.00	 Em promoção
+## Estrutura do Arquivo produtos.csv
+
+O arquivo `produtos.csv` deve ter a seguinte estrutura:
+
+| Código | Marca     | Tipo   | Categoria  | Preço Unitário | Custo | Observações   |
+|--------|-----------|--------|------------|----------------|-------|---------------|
+| 123    | Marca X   | Tipo 1 | Categoria 1| 99.99          | 60.00 | Nenhuma       |
+| 456    | Marca Y   | Tipo 2 | Categoria 2| 199.99         | 120.00| Em promoção   |
+| 789    | Marca Z   | Tipo 3 | Categoria 3| 49.99          | 30.00 | Novo produto  |
+
 
 ## Como Executar o Projeto
 
